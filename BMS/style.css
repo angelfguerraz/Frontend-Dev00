@@ -11,8 +11,10 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     background: whitesmoke;
+    margin: 1rem;
 }
 
+/* HEADER BEGIN */
 .header {
     border: red solid 0.1rem;
     display: flex;
@@ -101,3 +103,46 @@ body {
     color: #00727d;
     cursor: default;
 }
+
+/* HEADER END*/
+
+/* MAIN BEGIN */
+.main__background-pic {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* MAIN END */
+
+/* FOOTER BEGIN */
+.footer {
+    border: orangered solid .1rem;
+    background-color: #00727d;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.footer__list {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer__list-item:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list-item--logo {
+    background-color: white;
+    object-fit: cover;
+    width: 10rem;
+    margin: .5rem;
+}
+
+/* FOOTER END */
