@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    border: blueviolet solid 3px;
+    margin: 1rem;
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-container {
+    border: yellowgreen solid 2px;
+}
+
+#inputForm{
+    border: red solid 1px;
+}
+
+#boxes-container {
+    border: blue solid 1px;
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: coral;
+    margin: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: .5rem;
+    opacity: 0.7;
+}

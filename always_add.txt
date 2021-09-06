@@ -1,3 +1,6 @@
+/* NOTES:
+	BEM: Block Element Modifier
+*/
 * {	
 	box-sizing: border-box;
 	border: 0;

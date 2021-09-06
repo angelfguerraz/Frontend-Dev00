@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.header {
+    border: red solid 0.1rem;
+}
+
+.flex-container {
+    border: blueviolet solid 0.3rem;
+    display: flex;
+    justify-content: space-evenly;
+    /*Avoids items to get squeezed*/
+    flex-wrap: wrap;
+    margin: .5rem;
+}
+
+[class^="flex-item-"] {
+    border: black solid .2rem;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.point {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: black;
+}
+
+.flex-item-1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item-2 {
+    justify-content: space-between;
+}
+
+.flex-item-2 .point:nth-child(2) {
+    /*align-self: aligns exclusively one item;*/
+    align-self: flex-end;
+}
+
+.flex-item-3 {
+    justify-content: space-around;
+}
+
+.flex-item-3 .point:nth-child(2) {
+    align-self: center;
+}
+
+.flex-item-3 .point:nth-child(3) {
+    align-self: flex-end;
+}
+
+.flex-item-4 {
+    justify-content: space-between;
+}
+
+.flex-item-4 .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-item-5 {
+    justify-content: space-between;
+}
+
+.flex-item-5 .point {
+    align-self: center;
+}
+
+.flex-item-5 .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-item-6 {
+    justify-content: space-between;
+}
+
+.flex-item-6 .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    border: red solid .1rem;
+}
