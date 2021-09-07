@@ -29,7 +29,7 @@ body {
 }
 
 .header__profile {
-    border: blue solid .1rem;
+    border: none;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -168,7 +168,7 @@ a:hover,
 
 /* FOOTER BEGIN */
 .footer {
-    border: orangered solid .1rem;
+    border: none;
     background-color: #00727d;
 }
 
